@@ -1,0 +1,19 @@
+Reguli Singleton:
+
+SINGLETON - DESIGN PATTERN CREATIONAL
+
+1. O Singura Instanta;
+
+2. Constructorii privati;
+
+3. Metoda Statica -> returneaza o instanta;
+-------------------------------------------------------------------------------------------------
+
+if( instance == null) 
+	instannce = new Database();
+else return instance;  --> nu merge cu threaduri (creaza mai multe instante pt fiecare thread) 
+		-> Lazy Initialization Not Thread Safe (initializat greu)
+ 
+ ------------------------------------------------------------------------------------------------
+ 
+ Early Initialization -> creaza instanta si daca nu este nevoie

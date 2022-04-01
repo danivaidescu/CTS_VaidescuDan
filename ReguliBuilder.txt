@@ -1,0 +1,4 @@
+BUILDER - DESIGN PATTERN CREATIONAL
+
+-- se foloseste cand stim ce este obligatoriu si ce este  optional
+-- parinte: pizza margherita + copii extinsi din parinte
