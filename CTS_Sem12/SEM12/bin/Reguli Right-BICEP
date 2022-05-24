@@ -1,0 +1,6 @@
+Right - Are the results right for the right input?
+B - boundaries-> are all the boundaries conditions correct?
+I - Can you check the inverse relationship?
+C - Can you cross-check results using other means?
+E - Can you check error conditions to happen?
+P - Performance 
